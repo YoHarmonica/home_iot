@@ -22,7 +22,7 @@ set :format_options, command_output: true, log_file: "log/capistrano.log", color
 
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", "config/secrets.yml"
-append :linked_files, "config/puma.rb"
+append :linked_files, "config/puma.rb", "db/production.sqlite3", "db/schema.rb"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/cache", "public/system", "sockets", "pids"
