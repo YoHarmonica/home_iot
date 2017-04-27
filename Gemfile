@@ -41,6 +41,11 @@ group :development, :test do
   gem 'rubocop', '~> 0.48.1', require: false
   # Rspec
   gem 'rspec-rails', '~> 3.5'
+
+  gem 'pry-rails'  # rails console(もしくは、rails c)でirbの代わりにpryを使われる
+  gem 'pry-doc'    # methodを表示
+  gem 'pry-byebug' # デバッグを実施(Ruby 2.0以降で動作する)
+  gem 'pry-stack_explorer' # スタックをたどれる
 end
 
 group :development do
