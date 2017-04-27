@@ -2,7 +2,7 @@
 lock "3.8.1"
 
 set :application, "home_iot"
-set :repo_url, "git@github.com:YoHarmonica/home_iot.git"
+set :repo_url, "git@github.com:yo-it-engineer/home_iot.git"
 
 # Default branch is :master
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
