@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       namespace :temperatures do
         get "/" , :action => "index"
+        post "/insert", :action => "insert"
       end
     end
   end
